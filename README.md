@@ -41,13 +41,6 @@ Usage:
 
 ---
 
-## Technologies
-
-- C
-- MiniLibX
-
----
-
 ## Compilation
 
 - Clone FdF repository.
@@ -110,4 +103,3 @@ The controls are inspired by Autodesk Maya navigation style for a more intuitive
 - Event-driven programming
 - Memory management in C
 
----
