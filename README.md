@@ -15,6 +15,7 @@ This project was developed in compliance with the requirements and constraints o
 - Parse `.fdf` map files
 - Render 3D wireframe maps
 - Isometric projection
+- Parallel projection
 - Zoom and movement controls
 - Rotation support
 - Event handling with MiniLibX
@@ -49,9 +50,9 @@ Usage:
 
 ## Compilation
 
-Clone FdF repository.
-Clone the MiniLibX repository into the same parent directory as the FdF project and name it mlx.
--> https://github.com/42paris/minilibx-linux
+- Clone FdF repository.
+- Clone the MiniLibX repository into the same parent directory as the FdF project and name it mlx.
+- https://github.com/42paris/minilibx-linux
 
 ```text
 .
