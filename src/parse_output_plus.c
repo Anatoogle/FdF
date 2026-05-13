@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   parse_output.c                                     :+:      :+:    :+:   */
+/*   parse_output_plus.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: asemykin <asemykin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/01 16:19:00 by asemykin          #+#    #+#             */
-/*   Updated: 2026/05/11 22:48:14 by asemykin         ###   ########.fr       */
+/*   Updated: 2025/04/02 20:11:12 by asemykin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fdf.h"
+#include "../includes/fdf_plus.h"
 
 void	set_iar(int **iar, int fd, int col, int row)
 {
@@ -29,11 +29,8 @@ void	set_iar(int **iar, int fd, int col, int row)
 		while (j < row)
 		{
 			iar[i][j] = ft_atoi(sar[j]);
-			write(1, sar[j], ft_strlen(sar[j]));
-			write(1, " ", 1);
 			j++;
 		}
-		write(1, "\n", 1);
 		free(line);
 		free_sar(sar);
 		line = get_next_line(fd);

@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils_bonus.c                                      :+:      :+:    :+:   */
+/*   utils_plus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: asemykin <asemykin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/01 16:23:12 by asemykin          #+#    #+#             */
-/*   Updated: 2026/05/12 00:41:47 by asemykin         ###   ########.fr       */
+/*   Updated: 2025/04/02 20:11:24 by asemykin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fdf_bonus.h"
+#include "../includes/fdf_plus.h"
 
 float	ft_lerp(float a, float b, float f)
 {
@@ -58,13 +58,16 @@ void	init_control(t_control *control)
 void	init_fdf(t_fdf *fdf)
 {
 	fdf->row = 0;
-	fdf->col = 0;
+	//fdf->col = 0;
 	fdf->cam = 0;
+	fdf->edge_count = 0;
 	fdf->mlx = NULL;
 	fdf->win = NULL;
 	fdf->img = NULL;
 	fdf->addr = NULL;
 	fdf->iar = NULL;
+	fdf->vertices = NULL;
+	fdf->edges = NULL;
 	fdf->bpp = 0;
 	fdf->line_len = 0;
 	fdf->endian = 0;
