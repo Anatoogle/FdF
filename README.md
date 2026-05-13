@@ -4,11 +4,17 @@ FdF is a graphics project from the 42 curriculum focused on creating a simple 3D
 
 The program reads a map file containing height values and displays the landscape in an isometric projection. The project introduces the basics of computer graphics, coordinate transformations, rendering, and event handling.
 
+This project is not a 3D engine. It is a low-level graphics program focused on understanding how images are drawn from mathematical data.
+
+Instead of relying on modern rendering systems, everything is built from scratch: calculating coordinates, projecting 3D points onto a 2D screen, and drawing lines pixel by pixel.
+
 This project was developed in compliance with the requirements and constraints of the 42 network, respecting the imposed coding standards, allowed functions, and project guidelines.
 
 ---
 
 <img width="750" height="422" alt="FdF_gif" src="https://github.com/user-attachments/assets/a357f0c9-dac9-4078-b168-6e51bfc1980d" />
+
+---
 
 ## Features
 
